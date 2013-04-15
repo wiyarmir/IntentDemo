@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_contacts"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Select contact"/>
+    <item
+        android:id="@+id/menu_sms"
+        android:enabled="false"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Send SMS"/>
+    <item
+        android:id="@+id/menu_maps"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Search Wroclaw Rynek"/>
+    <item
+        android:id="@+id/menu_custom"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Student info"/>
+
+</menu>
